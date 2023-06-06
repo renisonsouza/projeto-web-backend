@@ -1,0 +1,124 @@
+:root {
+    --first-color: #0d7dc0;
+    --second-color: #ffffff;
+    --container-color: #142a53;
+    --container-color-2: #2a70f1;
+    --bg-botao: #2bbb2b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--first-color);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: var(--second-color);
+    width: 90%;
+    height: 150px;
+    position: absolute;
+    top: 460px;
+    left: 70px;
+    border-radius: 10px;
+}
+
+.imgContato{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 25px;
+    right: 55px;
+}
+
+.containerAddContato {
+    width: 80%;
+    height: 500px;
+    background-color: var(--container-color);
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    left: 135px;
+    margin: auto;
+}
+
+.containerContatos {
+    width: 90%;
+    height: 60%;
+    background-color: var(--second-color);
+    border-radius: 10px;
+    position: absolute;
+    top: 170px;
+    left: 48px;
+    margin: auto;
+}
+
+.titAddContatos {
+    position: absolute;
+    font-weight: bold;
+    font-size: 35px;
+    top: 40px;
+    left: 53px;
+    color: var(--second-color);
+}
+
+.titListaContatos{
+    position: absolute;
+    font-weight: bold;
+    font-size: 15px;
+    top: 15px;
+    left: 15px;
+    color: var(--first-color);
+}
+
+.form {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    width: 83%;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.inputNome {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+
+.inputTel {
+    position: absolute;
+    top: 25px;
+    left: 230px;
+}
+
+button {
+    color: var(--second-color);
+    position: absolute;
+    top: 22px;
+    left: 460px;
+    margin: 4px;
+    width: 218px;
+    padding: 10px;
+    background-color: var(--bg-botao);
+    border: none;
+    border-radius: 5px;
+}
+
+.spanFooter{
+    position: absolute;
+    top: 115px;
+    left: 460px;
+    color: var(--container-color);
+    font-weight: bold;
+}
+
