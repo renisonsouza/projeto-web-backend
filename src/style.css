@@ -27,7 +27,7 @@ body {
     border-radius: 10px;
 }
 
-.imgContato {
+.img-contato {
     height: 100px;
     width: 100px;
     position: absolute;
@@ -35,7 +35,7 @@ body {
     right: 55px;
 }
 
-.containerAddContato {
+.container-add-contato {
     width: 80%;
     height: 500px;
     background-color: var(--container-color);
@@ -46,7 +46,7 @@ body {
     margin: auto;
 }
 
-.containerContatos {
+.container-contatos {
     width: 90%;
     height: 60%;
     background-color: var(--second-color);
@@ -57,7 +57,7 @@ body {
     margin: auto;
 }
 
-.titAddContatos {
+.tit-add-contatos {
     position: absolute;
     font-weight: bold;
     font-size: 35px;
@@ -66,13 +66,24 @@ body {
     color: var(--second-color);
 }
 
-.titListaContatos {
+.tit-lista-contatos {
     position: absolute;
     font-weight: bold;
     font-size: 15px;
     top: 15px;
     left: 15px;
     color: var(--main-color);
+}
+
+.lista-contatos {
+
+    height: 230px;
+    width: 95%;
+    background-color: red;
+    position: absolute;
+    top: 45px;
+    left: 25px;
+
 }
 
 .form {
@@ -114,14 +125,13 @@ button {
     border-radius: 5px;
 }
 
-.spanFooter {
+.span-rodape {
     position: absolute;
     top: 115px;
     left: 460px;
     color: var(--container-color);
     font-weight: bold;
 }
-
 
 .container-login {
     background-color: var(--main-color);
@@ -130,20 +140,14 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
-.input-login     {
+.input-login {
     border: 1px solid var(--main-color);
-
     margin: .5rem 0;
 }
 
 .container-dentro {
-    /* 
-    width:200px;
-    height: 200px; */
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -151,20 +155,17 @@ button {
     padding: 2rem 2rem;
     border-radius: 10px;
     background-color: var(--second-color);
-
 }
 
 .form-group {
     color: var(--container-color);
-
     display: flex;
     flex-direction: column;
 }
 
 .titulo-login {
     padding: .5rem 0 2rem;
-   color: var(--container-color);
-
+    color: var(--container-color);
 }
 
 .bt-login {
