@@ -5,30 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link REL="SHORTCUT ICON" HREF="https://cdn-icons-png.flaticon.com/512/2166/2166823.png">
-
+    <link REL="SHORTCUT ICON" HREF="https://cdn-icons-png.flaticon.com/512/2316/2316543.png">
     <link rel="stylesheet" type="text/css" href="style.css">
-
-    <title>Projeto BackEnd - Pagina Inicial</title>
+    <title>Bodega - Pagina Inicial</title>
 </head>
 
 <body>
-    <div class="container">
-        <span class="span-rodape">Renison Souza - Programação Backend</span>
-    </div>
-    <div class="container-add-contato">
-        <span class="tit-add-contatos">Adicionar Contato</span>
-        <img class="img-contato" src="https://cdn.icon-icons.com/icons2/272/PNG/512/Contacts_30028.png">
-        <div class="form">
-            <input class="inputNome" type="text" placeholder="Nome">
-            <input class="inputTel" type="tel" placeholder="(DDD) 9 9999-9999">
-            <button>Salvar</button>
-        </div>
-        <div class="container-contatos">
-            <span class="tit-lista-contatos">Lista de contatos</span>
-            <div class="lista-contatos">
-            </div>
 
+    <div class="container-add-vinho">
+        <img class="img-logo" src="BODEGA.png">
+        <div class="form">
+            <span class="label-nome" type="text" placeholder="Nome">Nome</span>
+            <input class="input-nome" for="nome-input" type="text" placeholder="Nome">
+            <span class="label-ano" type="text" placeholder="Ano">Ano</span>
+            <input class="input-ano" for="ano-input" type="text" placeholder="Ano">
+            <span class="label-produtor" type="text" placeholder="Produtor">Produtor</span>
+            <input class="input-produtor" for="produtor-input" type="text" placeholder="Produtor">
+            <input class="bt-salvar" type="submit" value="Salvar">
+        </div>
+
+        <div class="container-vinho">
+            <span class="tit-lista-vinho">Minha Adega</span>
+            <div class="lista-vinho" id="lista-vinho">
+                <script src="scripts.js"></script>
+            </div>
         </div>
     </div>
 </body>
